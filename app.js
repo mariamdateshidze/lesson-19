@@ -21,8 +21,6 @@ form.addEventListener('submit', e => {
   if(isEmailValid && isPasswordValid && isPersonalnumberValid && isMobilenumberValid && isPositionValid  ){
     console.log('Call to backend api');
 
-    
-
   }
 });
 
@@ -142,3 +140,4 @@ function closeModal(modalSelector){
   const modalNode = document.querySelector(modalSelector);
   modalNode.classList.remove('visible');
 }
+

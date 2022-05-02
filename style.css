@@ -53,3 +53,12 @@ button {
     border: none;
     border-radius: 10px;
 }
+
+#login-btn{
+    background-color: rgb(12, 88, 88);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
