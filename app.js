@@ -22,6 +22,8 @@ form.addEventListener('submit', e => {
     console.log('Call to backend api');
 
   }
+
+  
 });
 
 function validateEmail(){
@@ -122,15 +124,12 @@ function openModal(modalSelector){
 
     const loginBtn = modalNode.querySelector('.modal-close');
     loginBtn.addEventListener('click', () => {
-        // if(isEmailValid() && isPasswordValid() && isPersonalnumberValid() && isMobilenumberValid() && isPositionValid() ){
-        //     closeModal(modalSelector)
+        if(validateEmail() && validateMobilenumber() && validatePassword() && validatePosition() && validatePersonalnumber() ){
+            closeModal(modalSelector)
+           
 
-        // }
-
-        closeModal(modalSelector)
-
-
-
+        }
+       
        
     })
 
@@ -139,5 +138,9 @@ function openModal(modalSelector){
 function closeModal(modalSelector){
   const modalNode = document.querySelector(modalSelector);
   modalNode.classList.remove('visible');
+  
 }
+
+
+
 

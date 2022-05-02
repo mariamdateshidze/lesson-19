@@ -52,6 +52,7 @@ button {
     font-size: 25px;
     border: none;
     border-radius: 10px;
+   
 }
 
 #login-btn{
@@ -62,3 +63,10 @@ button {
     border-radius: 10px;
 
 }
+
+input{
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 17px;
+}
+
