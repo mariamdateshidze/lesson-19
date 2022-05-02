@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="open-modal" type="button">Open modal</button> 
+
+    <div  class="modal my-modal">
+
+        <form id="user-login-form" method="post" action="/" novalidate>
+            <div class="form-field">
+                <label>
+                    <input name="email" type="email" placeholder="Enter Email">
+                    <p class="error-message"></p>
+                </label>
+            </div>
+  
+             <div class="form-field">
+                 <label>
+                     <input name="password" type="password" placeholder="Enter Password">
+                     <p class="error-message"></p>
+                 </label>
+             </div>
+  
+             <div class="form-field">
+              <label>
+                  <input name="personal_number" type="number" placeholder="Enter personal number" > 
+  
+                  <p class="error-message"></p>
+              </label>
+          </div>
+  
+          <div class="form-field">
+              <label>
+                  <input name="mobile_number" type="number" placeholder="Enter mobile number">
+                  <p class="error-message"></p>
+              </label>
+          </div>
+  
+          <div class="form-field">
+              <label>
+                  <input name="position" type="text" placeholder="Enter position" maxlength="30">
+                  
+              </label>
+          </div>
+
+          
+  
+  
+  
+             <button id="login-btn" class="modal-close"  type="submit">Login</button>
+          </form>
+
+
+    </div>
+
+
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

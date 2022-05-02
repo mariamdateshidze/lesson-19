@@ -1,0 +1,55 @@
+#user-login-form {
+    padding: 30px;
+}
+.form-field {
+    margin-bottom: 15px;
+}
+.form-field input {
+    height: 32px;
+    outline: none;
+    border: 1px solid #e3e3e3;
+}
+button {
+    padding: 6px 20px;
+}
+
+.form-field .has-error, .form-field .has-error:focus {
+    border: 1px solid red;
+}
+.error-message {
+    color: red;
+}
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(55, 226, 175, 0.2);
+    padding-top: 50px;
+}
+.modal.visible {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modal-content {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.modal-header {
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#open-modal{
+    background-color: rgb(12, 88, 88);
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+}
